@@ -13,6 +13,8 @@ const Home: NextPage = () => {
    } 
   return (
     <div>
+     <label>
+      Base64 String:
       <input type="text" value = {base64_string} onChange = {handle_input_change}/>
       <div>{string}</div>
     </div>
